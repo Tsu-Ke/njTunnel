@@ -41,7 +41,7 @@ jobs:
           tags: |
             ghcr.io/tsu-ke/njtunnel:7717
           labels: |
-            org.opencontainers.image.source=https://github.com/${{ github.repository }}
+            org.opencontainers.image.source=https://github.com/tsu-ke
             org.opencontainers.image.description=HTTP Server
             org.opencontainers.image.licenses=MIT
           cache-from: type=gha
